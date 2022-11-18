@@ -166,7 +166,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: 95%;
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -538,6 +538,8 @@ strong {
 .testimonial-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin: 5px;
+  padding: 5px;
 }
 
 .testimonial-name {
