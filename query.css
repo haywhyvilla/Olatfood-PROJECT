@@ -105,6 +105,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
   .cta {
+    height: 65rem;
     grid-template-columns: 3fr 2fr;
   }
 
@@ -122,8 +123,12 @@
     width: 90%;
     z-index: 999;
   }
+
   .btn--form {
     margin-top: 1.2rem;
+    position: absolute;
+    width: 90%;
+    z-index: 999;
   }
 
   /* mobile navigation */
@@ -182,6 +187,10 @@
   .grid--footer {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .cta {
+    height: 80rem;
+  }
 }
 
 @media (max-width: 44em) {
@@ -218,6 +227,10 @@
   .company,
   .Resources {
     display: none;
+  }
+
+  .cta {
+    height: 100rem;
   }
 }
 
@@ -311,5 +324,9 @@
     text-align: center;
     justify-self: center;
     width: 40rem;
+  }
+
+  .cta {
+    height: 120rem;
   }
 }

@@ -716,6 +716,7 @@ strong {
 
 .cta-form label {
   display: block;
+  font-size: 1.4rem;
 
   margin-bottom: 1.2rem;
 }
@@ -742,6 +743,7 @@ strong {
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
+  margin-top: 2.5rem;
 }
 
 .btn--form:hover {
